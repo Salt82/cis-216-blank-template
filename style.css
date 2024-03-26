@@ -1,3 +1,11 @@
 .row{
     float: left;
 }
+
+#albumtalk{
+    color: gold;
+}
+
+body{
+    background-color: black;
+}
