@@ -18,3 +18,22 @@ body{
 h3{
     color:#FF8080 ;
 }
+.container{
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+html, body {width: auto!important; overflow-x: hidden!important} 
+
+@media (max-width: 480px){
+
+}
