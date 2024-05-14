@@ -1,5 +1,6 @@
 .row{
     float: left;
+    max-width: 50%;
 }
 
 #albumtalk{
@@ -18,23 +19,37 @@ body{
 h3{
     color:#FF8080 ;
 }
-.container{
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    
-}
+
+
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: red 2px;
-
+    border: 4px solid red;
+    -ms-layout-grid-line: auto;
+    max-width: 50%;
+    max-width: 300px;
+    
 }
 
-html, body {width: auto!important; overflow-x: hidden!important} 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    outline: wheat;
+    
+    
+    
+    
+    
+}
+
+
+.flex img{
+    border: 4px solid cornflowerblue;  
+}
 
 @media (max-width: 480px){
 
 }
+
+
